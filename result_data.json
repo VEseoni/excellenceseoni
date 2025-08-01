@@ -1,0 +1,62 @@
+[
+    {
+        "name": "PRIYA YADAV",
+        "roll": "1101",
+        "Class ": "11TH",
+        "marks": 18.0
+    },
+    {
+        "name": "VAISHNAVI SANODIYA",
+        "roll": "1102",
+        "Class ": "11TH E",
+        "marks": 19.0
+    },
+    {
+        "name": "SUMAN YADAV",
+        "roll": "1103",
+        "Class ": "11TH",
+        "marks": 19.0
+    },
+    {
+        "name": "DEEPIKA TEMBHRE",
+        "roll": "1104",
+        "Class ": "11TH E",
+        "marks": 19.0
+    },
+    {
+        "name": "DEEPANSH DHURVE",
+        "roll": "1105",
+        "Class ": "11TH B",
+        "marks": 20.0
+    },
+    {
+        "name": "BINDIYA SANODIYA",
+        "roll": "1106",
+        "Class ": "11TH D",
+        "marks": 17.0
+    },
+    {
+        "name": NaN,
+        "roll": "nan",
+        "Class ": NaN,
+        "marks": NaN
+    },
+    {
+        "name": NaN,
+        "roll": "nan",
+        "Class ": NaN,
+        "marks": NaN
+    },
+    {
+        "name": NaN,
+        "roll": "nan",
+        "Class ": NaN,
+        "marks": NaN
+    },
+    {
+        "name": NaN,
+        "roll": "nan",
+        "Class ": NaN,
+        "marks": NaN
+    }
+]
