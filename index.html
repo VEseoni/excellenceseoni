@@ -1,98 +1,125 @@
 <!DOCTYPE html>
 <html lang="hi">
 <head>
-    <meta charset="UTF-8">
-    <title>शासकीय उत्कृष्ट विद्यालय सिवनी</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            padding: 50px;
-            background-color: #f4f4f4;
-        }
+  <meta charset="UTF-8">
+  <title>शासकीय उत्कृष्ट विद्यालय सिवनी</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      padding: 0;
+      background-color: #f4f4f4;
+      margin: 0;
+    }
 
-        nav {
-            background-color: #333;
-            padding: 10px;
-        }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      padding: 10px 30px;
+      border-bottom: 2px solid #ccc;
+    }
 
-        nav a, .dropbtn {
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-            color: white;
-            background: none;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
+    .header img {
+      height: 70px;
+      width: auto;
+    }
 
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
+    .header h1 {
+      flex: 1;
+      text-align: center;
+      margin: 0;
+      font-size: 24px;
+    }
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: white;
-            min-width: 200px;
-            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
-            z-index: 1;
-            text-align: left;
-        }
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
 
-        .dropdown-content a {
-            color: black;
-            padding: 10px 15px;
-            text-decoration: none;
-            display: block;
-        }
+    nav a, .dropbtn {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
 
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
 
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 200px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      text-align: left;
+    }
 
-        footer {
-            margin-top: 50px;
-            padding: 10px;
-            background-color: #eaeaea;
-            color: #333;
-            font-size: 14px;
-        }
-    </style>
+    .dropdown-content a {
+      color: black;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 10px;
+      background-color: #eaeaea;
+      color: #333;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-    <h1>शासकीय उत्कृष्ट विद्यालय सिवनी</h1>
-    <h1>जिला-सिवनी</h1>
 
-    <nav>
-        <a href="index.html">मुख्य पृष्ठ</a>
+  <div class="header">
+    <img src="logo.png" alt="school-logo">
+    <h1>शासकीय उत्कृष्ट विद्यालय सिवनी<br><span style="font-size: 18px;">जिला-सिवनी</span></h1>
+    <img src="logo.png" alt="school-logo">
+  </div>
 
-        <div class="dropdown">
-            <button class="dropbtn">व्यावसायिक ट्रेड ▼</button>
-            <div class="dropdown-content">
-                <a href="it.html">आई.टी.</a>
-                <a href="electronics.html">इलेक्ट्रॉनिक्स एंड हार्डवेयर</a>
-            </div>
-        </div>
+  <nav>
+    <a href="index.html">मुख्य पृष्ठ</a>
 
-        <a href="index.html">गतिविधियाँ</a>
-        <a href="index.html">गैलेरी</a>
-        <a href="about.html">हमारे बारे में</a>
-        <a href="contact.html">संपर्क करें</a>
-        <a href="result.html">मासिक टेस्ट रिज़ल्ट</a>
-    </nav>
+    <div class="dropdown">
+      <button class="dropbtn">व्यावसायिक ट्रेड ▼</button>
+      <div class="dropdown-content">
+        <a href="it.html">आई.टी.</a>
+        <a href="electronics.html">इलेक्ट्रॉनिक्स एंड हार्डवेयर</a>
+      </div>
+    </div>
 
-    <p>हमारे विद्यालय की वेबसाइट में आपका स्वागत है!</p>
+    <a href="index.html">गतिविधियाँ</a>
+    <a href="index.html">गैलेरी</a>
+    <a href="about.html">हमारे बारे में</a>
+    <a href="contact.html">संपर्क करें</a>
+    <a href="result.html">मासिक टेस्ट रिज़ल्ट</a>
+  </nav>
 
-    <footer>
-        Designed and Developed by <strong>अनिल कुमार सनोडिया</strong>, <em>व्यावसायिक प्रशिक्षक</em><br>
-        © शासकीय उत्कृष्ट विद्यालय, सिवनी
-    </footer>
+  <p>हमारे विद्यालय की वेबसाइट में आपका स्वागत है!</p>
+
+  <footer>
+    Designed and Developed by <strong>अनिल कुमार सनोडिया</strong>, <em>व्यावसायिक प्रशिक्षक</em><br>
+    © शासकीय उत्कृष्ट विद्यालय, सिवनी
+  </footer>
+
 </body>
 </html>
