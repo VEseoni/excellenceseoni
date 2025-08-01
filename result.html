@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>मासिक टेस्ट परिणाम</title>
+    <style>
+        body { font-family: Arial; padding: 20px; text-align: center; background-color: #f9f9f9; }
+        select, input, button { padding: 10px; margin: 10px; font-size: 16px; }
+        .result-box { margin-top: 20px; font-size: 18px; color: green; }
+    </style>
+</head>
+<body>
+    <h1>📊 मासिक टेस्ट परिणाम</h1>
+
+    <label for="class">कक्षा चुनें:</label>
+    <select id="class">
+        <option value="9">9वीं</option>
+        <option value="10">10वीं</option>
+    </select>
+
+    <br>
+
+    <label for="roll">रोल नंबर:</label>
+    <input type="text" id="roll" placeholder="जैसे: 101">
+
+    <br>
+
+    <button onclick="showResult()">परिणाम देखें</button>
+
+    <div class="result-box" id="result"></div>
+
+    <script>
+        // डेमो परिणाम डाटा (आप इसे अपने अनुसार बढ़ा सकते हैं)
+        const results = {
+            "9": {
+                "101": "नाम: अजय | हिंदी: 18 | गणित: 20 | कुल: 38/40",
+                "102": "नाम: सीमा | हिंदी: 17 | गणित: 19 | कुल: 36/40"
+            },
+            "10": {
+                "201": "नाम: रवि | विज्ञान: 20 | गणित: 18 | कुल: 38/40",
+                "202": "नाम: प्रिया | विज्ञान: 19 | गणित: 17 | कुल: 36/40"
+            }
+        };
+
+        function showResult() {
+            const selectedClass = document.getElementById("class").value;
+            const roll = document.getElementById("roll").value.trim();
+            const resultBox = document.getElementById("result");
+
+            if (results[selectedClass] && results[selectedClass][roll]) {
+                resultBox.innerHTML = "📄 परिणाम: " + results[selectedClass][roll];
+                resultBox.style.color = "green";
+            } else {
+                resultBox.innerHTML = "❌ परिणाम नहीं मिला। कृपया सही रोल नंबर दर्ज करें।";
+                resultBox.style.color = "red";
+            }
+        }
+    </script>
+</body>
+</html>
